@@ -22,4 +22,16 @@ var introduce = function (name, occupation) {
 console.log(introduce("Leslie", "front end web developer")) // My name is Leslie and I am a front end web developer. 
 
 
+//Function to Capture Input
+var hydrationFeedback = function () {
+    var numGlasses = Number(
+        prompt("How many glasses of water did you have today? ")
+    );
+    if (numGlasses >= 8) {
+        console.log("Amazing! You must feel good!");
+    } else if (numGlasses < 8) {
+        console.log("Not bad, not bad. Let's try for a bit more tomorrow!");
+    }
+};
 
+hydrationFeedback();
