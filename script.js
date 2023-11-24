@@ -15,4 +15,11 @@ console.log(favoriteCookie("peanut butter")); // My favorite cookie is peanut bu
 
 
 
+//Function with 2 parameters
+var introduce = function (name, occupation) {
+    return `Hi there! My name is ${name} and I am a ${occupation}. Wanna code?`;
+};
+console.log(introduce("Leslie", "front end web developer")) // My name is Leslie and I am a front end web developer. 
+
+
 
